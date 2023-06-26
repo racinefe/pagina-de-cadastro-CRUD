@@ -9,7 +9,7 @@ class Cadastro extends React.Component {
         { id: 1, nome: "Item-01", link: "www.item-01.com" },
         { id: 2, nome: "Item-02", link: "www.item-02.com" },
         { id: 3, nome: "Item-03", link: "www.item-03.com" },
-        { id:43, nome: "Item-04", link: "www.item-04.com" },
+        { id: 4, nome: "Item-04", link: "www.item-04.com" },
       ],
     };
   }
