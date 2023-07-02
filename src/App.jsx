@@ -32,11 +32,11 @@ const App = () => {
        
         <div className="titulo-guia">
           <Tabs justify>
-            <Tab.Tab key="cadastro" eventKey="cadastro" title="Cadastro">
+            <Tab.Tab key="cadastro" eventKey="cadastro" title="Matrícula">
               <h2>Cadastro de Aluno</h2>
               <CadastroForm onSubmit={handleAddAluno} />
             </Tab.Tab>
-            <Tab.Tab key="lista" eventKey="lista" title="Lista">
+            <Tab.Tab key="lista" eventKey="lista" title="Lista de Alunos">
               <h2>Alunos Matriculados</h2>
               <ReadTable />
             </Tab.Tab>
