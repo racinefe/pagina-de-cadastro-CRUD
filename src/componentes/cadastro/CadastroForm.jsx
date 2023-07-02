@@ -108,7 +108,7 @@ const CadastroForm = ({ onSubmit }) => {
         </FloatingLabel>
 
         <Button className="button" type="submit">
-          Matricular
+        Matricular Aluno
         </Button>
       </Form>
     </div>
