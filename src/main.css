@@ -1,18 +1,45 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
     background-image: url('./assets/dgs.jpg');
-    background-size: cover;
+    background-size: 100% 200%;
     
     background-repeat: no-repeat;
-    background-color: rgba(26, 35, 36, 0.774);
+    background-color: rgba(0, 0, 0, 0);
     
     
 }
+@media (max-width: 995px) {
+    body{
+       
+        background-size: 60rem 100vh;
+        
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        
+        
+    }
+    .form {
+        display:  grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .container-cadastroForm form input{
+        width: 100%;
+    }
+    .form {
+        display:  grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .container-cadastroForm form input{
+        width: 100%;
+    }
+  }
