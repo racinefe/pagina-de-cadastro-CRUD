@@ -7,7 +7,12 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    background-image: url('./assets/aass.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(26, 35, 36, 0.774);
     
     
-    background: radial-gradient(circle, rgba(174,217,238,1) 0%, rgba(167,148,233,1) 100%);
 }

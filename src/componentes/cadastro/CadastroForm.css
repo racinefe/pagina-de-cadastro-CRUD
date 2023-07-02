@@ -1,44 +1,44 @@
 .container-cadastroForm {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-right: 10rem;
-    width: 100%;
     
+    height: 20rem;
+    
+ 
+}
 
-  
+.form {
+    display:  grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
 }
-.container-cadastroForm h1 {
-    padding: 10px;
-}
-.container-cadastroForm form {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .container-cadastroForm form input{
+    
     margin-bottom: 5px;
-    width: 30rem;
+    width: 20rem;
     border-radius: 20px;
     border: none;
-    padding: 10px;
+    
 }
 
 .button {
-    color: black;
-    background-color: rgb(238, 241, 241);
+    
+    background-color: rgb(104, 129, 129);
     border: none;
-    box-shadow: 3px 4px #8888884f;
+    box-shadow: 3px 4px #44438a62;
     padding: 10px;
     border-radius: 20px;
     width: 10rem;
     transition: 1s;
 }
 .button:hover {
-    background: linear-gradient(90deg, rgba(174,217,238,1) 0%, rgba(167,148,233,1) 100%);
+    background: linear-gradient(90deg, rgba(0,255,229,1) 0%, rgba(9,121,77,1) 100%);
     box-shadow: 3px 4px #44438a62;
-    width: 20rem;
+    color: black;
+    
 }
 
 

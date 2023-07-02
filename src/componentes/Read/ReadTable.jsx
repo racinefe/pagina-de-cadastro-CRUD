@@ -86,13 +86,13 @@ const ReadTable = () => {
     dbRef
       .update(updateFormValues)
       .then(() => {
-        console.log("Dados do aluno atualizados com sucesso!");
+        alert("Dados do aluno atualizados com sucesso!");
         setShowUpdateForm(false);
         setIsUpdating(false);
         setUpdatedAluno(updateFormValues);
       })
       .catch((error) => {
-        console.error("Erro ao atualizar os dados do aluno:", error);
+        alert("Erro ao atualizar os dados do aluno:", error);
         setIsUpdating(false);
         setUpdatedAluno(selectedAluno);
       });

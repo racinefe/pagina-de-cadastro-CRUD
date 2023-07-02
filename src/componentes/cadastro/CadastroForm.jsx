@@ -16,7 +16,7 @@ const CadastroForm = ({ onSubmit }) => {
     e.preventDefault();
 
     if (!nome || !idade || !curso || !endereco || !responsavel || !contato) {
-      setError("Todos os campos são obrigatórios");
+      alert("⚠ Atenção!!! Todos os campos da Matrícula são obrigatórios.");
       return;
     }
 
@@ -31,9 +31,8 @@ const CadastroForm = ({ onSubmit }) => {
   };
 
   return (
-    <div className="container-cadastroForm">
-      
-      <Form onSubmit={handleSubmit}>
+    <div className="container-cadastroForm" >
+      <Form onSubmit={handleSubmit} className="form">
         {error && <p>{error}</p>}
 
         <FloatingLabel controlId="floatingInput" label="Nome" className="mb-3">
@@ -107,7 +106,7 @@ const CadastroForm = ({ onSubmit }) => {
             floating
           />
         </FloatingLabel>
-        
+
         <Button className="button" type="submit">
           Matricular
         </Button>
