@@ -8,7 +8,6 @@
 - [Meu processo](#Meu-processo)
   - [Construído com](#Construído-com)
   - [O que eu aprendi](#O-que-eu-aprendi)
-  - [Continued development](#continued-development)
   - [ Recursos úteis](#Recursos-úteis)
 - [Autor](#Autor)
 - [Acknowledgments](#acknowledgments)
