@@ -40,17 +40,28 @@
 
 ### O que eu aprendi
 
-//exemplo
+Utilização dos React Hooks de estado (useState).
 
 
 ```js
-
-...Em breve
+//estrutura básica de um Hook de estado
+const [valor, setValor] = useState(valorInicial);
 ```
-//exemplo
 
+Utilizar a biblioteca do Firebase para realizar a integração com o banco de dados em tempo real (Realtime Database).
 ```js
-...Em breve
+import firebase from "firebase/compat/app";
+import "firebase/compat/database";
+const firebaseConfig = {
+  // Aqui são especificadas as configurações do seu projeto no Firebase
+  // apiKey, authDomain, databaseURL, projectId, etc.
+};
+firebase.initializeApp(firebaseConfig);
+const database = firebase.database();
+export default database;
+
+
+
 ```
 
 ### Recursos úteis
