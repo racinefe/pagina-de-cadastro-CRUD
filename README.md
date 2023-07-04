@@ -10,7 +10,7 @@
   - [O que eu aprendi](#O-que-eu-aprendi)
   - [ Recursos úteis](#Recursos-úteis)
 - [Autor](#Autor)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Visão geral
 
