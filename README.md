@@ -1,4 +1,4 @@
-# pagina-de-cadastro-CRUD
+# Página de Cadastro (CRUD)
 
 ## Índice
 
